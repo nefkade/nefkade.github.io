@@ -1,89 +1,67 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Kade Nef's Resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Kade Nef
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+<a href="nefkade2@gmail.com">nefkade2@gmail.com</a>
+
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Sophmore at Brighman Young Univerity - Idaho
 
 ### Specialized in
 
 Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
 
 
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
+`Jul. 2026`
+__Brighman Young University - Idaho__
 
 ## Awards
 
-`2012`
-President, *Royal Society*, London, UK
+`2019`
+Microsoft Excel, *Business Professionals of America Reginals*, Idaho Falls, ID
 
-Associate, *French Academy of Science*, Paris, France
+## Occupations
 
+`Apr. 2024 - Present`
+__Beehive Federal Credit Union__, Rigby, ID
 
+- Worked front line providing knowlegde on financial products
+- Showed customer service skills
 
-## Publications
+`Oct. 2022 - Apr. 2024`
+__Substitute Seminary Teacher__, Idaho Falls, ID
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+- Consistently entrusted to manage a class of up to 30 youth and maintain a positive learning environment
+- Developed strong presentation and teaching skills teaching 2-5 classes a day
+- Prepared lessons to last an hour at last minute
 
 
-## Occupation
+`Jun. 2019 – Aug. 2019`
+__Real Estate Internship__, Idaho Falls, ID
 
-`1600`
-__Royal Mint__, London
+- Managed six social media platforms increasing traffic on our pages
+- Aided in listing, showing, and marketing residential properties
+- Developed customer service skills
+- Created advertisements to promote our service and to sell properties
 
-- Warden
-- Minted coins
+`Sep. 2020 – Sep. 2022`
+__Full-Time Volunteer Representative for The Church of Jesus Christ of Latter-day Saints__, San Jose California / Oaxaca Mexico
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+- Demonstrated leadership skills by helping a team of twenty set and strive to attain goals
+- Consistently worked 60+ hours a week for two years
+- Planned effectively daily and executed plans but adjusted when needed
+- Became fluent in Spanish
 
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: July 2024 -->
