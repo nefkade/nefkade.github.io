@@ -26,3 +26,9 @@ execute:
 ---
 
 ### Paste in a template
+
+
+```{r}
+
+```
+
