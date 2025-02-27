@@ -27,10 +27,10 @@ website:
         file: cleansing.qmd
       - text: "Data Exploration"
         file: exploration.qmd
-      - text: "Story Telling"
-        file: story_telling.qmd
-      - text: "Machine Learning"
-        file: ml.qmd
+      #- text: "Story Telling"
+      #  file: story_telling.qmd
+      #- text: "Machine Learning"
+      #  file: ml.qmd
       - text: "Full Stack"
         file: full_stack.qmd
       - text: "Competition"
