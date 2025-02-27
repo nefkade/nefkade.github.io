@@ -1,7 +1,6 @@
 ---
-title: "Client Report - [Insert Project Title]"
-subtitle: "Course DS 250"
-author: "[STUDENT NAME]"
+title: "Baseball Analytics"
+author: "Kade Nef"
 format:
   html:
     self-contained: true
@@ -32,3 +31,4 @@ execute:
 
 ```
 
+This is a change.  

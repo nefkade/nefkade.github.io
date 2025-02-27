@@ -47,8 +47,8 @@ website:
         - text: "Data Cleansing"
           file: cleansing.qmd
         - text: "---"
-        - text: "Project 1"
-          file: Cleansing_Projects/project1.qmd
+        - text: "Baseball Analytics"
+          file: Cleansing_Projects/Baseball_Analtyics.qmd
         - text: "---"
         - text: "Project 2"
           file: Cleansing_Projects/project2.qmd
