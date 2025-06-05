@@ -1,187 +1,71 @@
-project: 
+project:
   type: website
 
 website:
   title: "Kade Nef - Data Science Portfolio"
-  favicon: Images/favicon.png
-  back-to-top-navigation: true
-  repo-url: https://github.com/nefkade/nefkade.github.io
-  #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
-
-  page-footer: 
-    border: true
-    left: "Kade Nef 2024©"
-    right: 
-      - icon: linkedin
-        href: Your_LinkedIn_URL
-
   navbar:
     background: primary
     search: true   
     right:
       - text: "Home"
         file: index.qmd
-      - text: "My Resume"
+      - text: "Resume"
         file: resume.qmd
-      - text: "Data Cleansing"
-        file: cleansing.qmd
-      - text: "Data Exploration"
-        file: exploration.qmd
-      #- text: "Story Telling"
-      #  file: story_telling.qmd
-      #- text: "Machine Learning"
-      #  file: ml.qmd
-      - text: "Full Stack"
-        file: full_stack.qmd
-      - text: "Competition"
-        file: competition.qmd
-  
-  # learn more about navication here https://quarto.org/docs/websites/website-navigation.html
-  # comment out any of the sections below to turn off the sidebar
+      - text: "Data Wrangling"
+        file: data_wrangling.qmd
+      - text: "Data Visualization"
+        file: data_visualization.qmd
+      - text: "Machine Learning"
+        file: machine_learning.qmd
+      - text: "SQL/Database"
+        file: sql_database.qmd
 
-  sidebar: 
-    - title: "Data Cleansing"
+  sidebar:
+    - title: "Data Wrangling"
       style: "docked"
       background: light
       contents:
-        - text: "Data Cleansing"
-          file: cleansing.qmd
-        - text: "---"
-        - text: "Baseball Analytics"
-          file: Cleansing_Projects/Baseball_Analtyics.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Cleansing_Projects/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Cleansing_Projects/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Cleansing_Projects/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Cleansing_Projects/project5.qmd
-        - text: "---"
-    - title: "Data Exploration"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Data Exploration"
-          file: exploration.qmd
-        - text: "---"
+        - text: "Overview"
+          file: data_wrangling.qmd
         - text: "Project 1"
-          file: Exploration_Projects/project1.qmd
-        - text: "---"
+          file: Data_Wrangling/project1.qmd
         - text: "Project 2"
-          file: Exploration_Projects/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Exploration_Projects/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Exploration_Projects/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Exploration_Projects/project5.qmd
-        - text: "---"
-    - title: "Story Telling"
+          file: Data_Wrangling/project2.qmd
+    - title: "Data Visualization"
       style: "docked"
       background: light
       contents:
-        - text: "Story Telling"
-          file: story_telling.qmd
-        - text: "---"
+        - text: "Overview"
+          file: data_visualization.qmd
         - text: "Project 1"
-          file: Story_Telling/project1.qmd
-        - text: "---"
+          file: Data_Visualization/Baseball_Analytics.qmd
         - text: "Project 2"
-          file: Story_Telling/project2.qmd
-        - text: "---"
+          file: Data_Visualization/project2.qmd
         - text: "Project 3"
-          file: Story_Telling/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Story_Telling/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Story_Telling/project5.qmd
-        - text: "---"
+          file: Data_Visualization/project3.qmd
+        - title: "Project 4"
+          file: Data_Visualization/project4.qmd
+        - title: "Project 5"
+          file: Data_Visualization/project5.qmd
+    - title: "SQL/Database"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Overview"
+          file: sql_database.qmd
+        - text: "Project 1"
+          file: SQL_Relational_Database/project1.qmd
+        - text: "Project 2"
+          file: SQL_Relational_Database/project2.qmd
     - title: "Machine Learning"
       style: "docked"
       background: light
       contents:
-        - text: "Machine Learning"
-          file: ml.qmd
-        - text: "---"
+        - text: "Overview"
+          file: machine_learning.qmd
         - text: "Project 1"
           file: Machine_Learning/project1.qmd
-        - text: "---"
         - text: "Project 2"
           file: Machine_Learning/project2.qmd
-        - text: "---"
         - text: "Project 3"
           file: Machine_Learning/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Machine_Learning/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Machine_Learning/project5.qmd
-        - text: "---"
-    - title: "Full Stack"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Full Stack"
-          file: full_stack.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: Full_Stack/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Full_Stack/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Full_Stack/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Full_Stack/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Full_Stack/project5.qmd
-        - text: "---"
-    - title: "Competition"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Competition"
-          file: competition.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: Competition/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Competition/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Competition/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Competition/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Competition/project5.qmd
-        - text: "---"
-  
-format:  
-  html:
-    theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
-      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
-      dark: darkly
-      #light: cosmo
-      #dark: [cosmo, theme-dark.scss]
-    css: styles.css
-    toc: true
-
-
-
