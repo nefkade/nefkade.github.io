@@ -84,20 +84,31 @@
   {
     "objectID": "data_wrangling.html",
     "href": "data_wrangling.html",
-    "title": "about me",
+    "title": "Overview - Data Wrangling",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section highlights the tools and techniques I use to clean and prepare raw data for analysis.\n\nProject One -\nProject Two -\nProject Three -\nProject Four -\nProject Five -",
     "crumbs": [
       "Data Wrangling",
       "Overview"
     ]
   },
   {
-    "objectID": "data_wrangling.html#title-2-header",
-    "href": "data_wrangling.html#title-2-header",
-    "title": "about me",
+    "objectID": "data_wrangling.html#projects",
+    "href": "data_wrangling.html#projects",
+    "title": "Overview - Data Wrangling",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section highlights the tools and techniques I use to clean and prepare raw data for analysis.\n\nProject One -\nProject Two -\nProject Three -\nProject Four -\nProject Five -",
+    "crumbs": [
+      "Data Wrangling",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "data_wrangling.html#data-preparation",
+    "href": "data_wrangling.html#data-preparation",
+    "title": "Overview - Data Wrangling",
+    "section": "Data Preparation",
+    "text": "Data Preparation\n\nKey Skills:\n\nHandling missing values\nAnalyzing outliers\nJoining data\nFeature Engineering\nData type conversion\nString cleaning\nAggregating and summarizing data\n\nTools that I use regularly:\n\nR\n\ntidyverse - package including (dplur, tidyr, readr, etc.)\nlubridate\nstringr\n\nPython\n\npandas\nNumPY\ndatetime",
     "crumbs": [
       "Data Wrangling",
       "Overview"
@@ -124,20 +135,31 @@
   {
     "objectID": "data_visualization.html",
     "href": "data_visualization.html",
-    "title": "about me",
+    "title": "Overview - Data Visualization",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section showcases how I turn data into insights through clear, compelling visualizations. Each project demonstrates a different aspect of visual storytelling—from interactive dashboards to exploratory plots that reveal patterns and trends.\n\nProject One –\nProject Two –\nProject Three –\nProject Four –\nProject Five –",
     "crumbs": [
       "Data Visualization",
       "Overview"
     ]
   },
   {
-    "objectID": "data_visualization.html#title-2-header",
-    "href": "data_visualization.html#title-2-header",
-    "title": "about me",
+    "objectID": "data_visualization.html#projects",
+    "href": "data_visualization.html#projects",
+    "title": "Overview - Data Visualization",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section showcases how I turn data into insights through clear, compelling visualizations. Each project demonstrates a different aspect of visual storytelling—from interactive dashboards to exploratory plots that reveal patterns and trends.\n\nProject One –\nProject Two –\nProject Three –\nProject Four –\nProject Five –",
+    "crumbs": [
+      "Data Visualization",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "data_visualization.html#visualization-approach",
+    "href": "data_visualization.html#visualization-approach",
+    "title": "Overview - Data Visualization",
+    "section": "Visualization Approach",
+    "text": "Visualization Approach\n\nKey Skills\n\nExploratory data visualization\nChoosing effective chart types\nHighlighting key insights visually\nCustomizing aesthetics and themes\nAnnotating for clarity and storytelling\n\nTools\n\nR\n\nggplot2\nplotly\npatchwork\ngganimate\n\nPython\n\nmatplotlib\nseaborn\nplotly\naltair\n\nBusiness Intelligence\n\nPower BI\nTableau\nExcel Charts & Pivot Tables",
     "crumbs": [
       "Data Visualization",
       "Overview"
@@ -244,20 +266,31 @@
   {
     "objectID": "machine_learning.html",
     "href": "machine_learning.html",
-    "title": "about me",
+    "title": "Overview - Machine Learning",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "- Project One –\n- Project Two –\n- Project Three –",
     "crumbs": [
       "Machine Learning",
       "Overview"
     ]
   },
   {
-    "objectID": "machine_learning.html#title-2-header",
-    "href": "machine_learning.html#title-2-header",
-    "title": "about me",
+    "objectID": "machine_learning.html#projects",
+    "href": "machine_learning.html#projects",
+    "title": "Overview - Machine Learning",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "- Project One –\n- Project Two –\n- Project Three –",
+    "crumbs": [
+      "Machine Learning",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "machine_learning.html#machine-learning",
+    "href": "machine_learning.html#machine-learning",
+    "title": "Overview - Machine Learning",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nKey Skills\n\nData preprocessing for modeling\nFeature selection and engineering\nModel training and evaluation\nHyperparameter tuning\nCross-validation and train/test splits\nInterpreting results and model explainability\nHandling imbalanced datasets\nCommunicating insights to non-technical audiences",
     "crumbs": [
       "Machine Learning",
       "Overview"
@@ -266,20 +299,31 @@
   {
     "objectID": "sql_database.html",
     "href": "sql_database.html",
-    "title": "about me",
+    "title": "Overview - SQL & Databases",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section highlights how I use SQL to extract, organize, and analyze data stored in relational databases.\n\nProject 1 -\nProject 2 -",
     "crumbs": [
       "SQL/Database",
       "Overview"
     ]
   },
   {
-    "objectID": "sql_database.html#title-2-header",
-    "href": "sql_database.html#title-2-header",
-    "title": "about me",
+    "objectID": "sql_database.html#projects",
+    "href": "sql_database.html#projects",
+    "title": "Overview - SQL & Databases",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "This section highlights how I use SQL to extract, organize, and analyze data stored in relational databases.\n\nProject 1 -\nProject 2 -",
+    "crumbs": [
+      "SQL/Database",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "sql_database.html#sql-database-skills",
+    "href": "sql_database.html#sql-database-skills",
+    "title": "Overview - SQL & Databases",
+    "section": "SQL & Database Skills",
+    "text": "SQL & Database Skills\n\nKey Skills\n\nWriting complex SQL queries\nFiltering, grouping, and aggregating data\nSubquieries and Common Table Expressions (CTEs)\nJOINs accross multiple tables",
     "crumbs": [
       "SQL/Database",
       "Overview"
