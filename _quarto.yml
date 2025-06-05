@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Kade Nef - Data Science Portfolio"
+  title: "Kade Benjamin Nef - Data Science Portfolio"
   navbar:
     background: primary
     search: true   
