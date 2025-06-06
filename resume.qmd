@@ -1,66 +1,82 @@
 ---
-layout: cv
-title: Kade Nef's Resume
+title: "Resume"
+format:
+  html:
+    toc: false
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    title-block-banner: true
 ---
+
 # Kade Nef
 
-<div id="webaddress">
-<a href="nefkade2@gmail.com">nefkade2@gmail.com</a>
+**Email:** [nefkade2@gmail.com](mailto:nefkade2@gmail.com) | **LinkedIn:** [Profile](https://www.linkedin.com/in/kade-nef/) | **Phone:**(208) 227-4183
 
-
-
-## Currently
-
-Sophmore at Brighman Young Univerity - Idaho
-
+---
 
 ## Education
 
-`Jul. 2026`
-__Brighman Young University - Idaho__
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Bachelor of Science in Business Analytics</strong></div>
+  <div>Apr. 2026</div>
+</div>
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>Brigham Young University–Idaho</div>
+  <div>Rexburg, ID</div>
+</div>
 
-- Major: Business Analytics
-- Minor: Financial Planning
+- Minor: Finance  
+- Certificate: Data Science
+
+---
+
+## Experience
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Team Lead – Building Bridges</strong></div>
+  <div>Jan. 2025 – Present | Rexburg, ID</div>
+</div>
+- Led a team of interns in developing and piloting a program to deliver Arbinger principles to small local businesses  
+- Conducted market research and assisted with pricing strategies to optimize business solutions
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Teller – Beehive Federal Credit Union</strong></div>
+  <div>Apr. 2024 – Jan. 2025 | Rigby, ID</div>
+</div>
+- Communicated with members and coworkers to resolve issues and ensure excellent service  
+- Processed transactions and maintained records with attention to detail and organization
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Substitute Seminary Teacher</strong></div>
+  <div>Oct. 2022 – Apr. 2024 | Idaho Falls, ID</div>
+</div>
+- Entrusted to manage a class of up to 30 youth and maintain a positive learning environment  
+- Developed strong presentation and teaching skills, preparing hour-long lessons on short notice
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Real Estate Intern – The Options Team</strong></div>
+  <div>Jun. 2019 – Aug. 2019 | Idaho Falls, ID</div>
+</div>
+- Managed six social media platforms, increasing page traffic  
+- Assisted in listing, showing, and marketing residential properties  
+- Created advertisements to promote services and sell properties
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div><strong>Volunteer Representative – The Church of Jesus Christ of Latter-day Saints</strong></div>
+  <div>Sep. 2020 – Sep. 2022 | San Jose, CA / Oaxaca, Mexico</div>
+</div>
+- Led a team of twenty in setting and achieving weekly goals  
+- Devoted 60+ hours per week for two years, balancing structure with adaptability  
+- Became fluent in Spanish
+
+---
 
 ## Awards
 
-`2019`
-Microsoft Excel, *Business Professionals of America Reginals*, Idaho Falls, ID
+**Microsoft Excel – Business Professionals of America Regionals**  
+*2019 | Idaho Falls, ID*
 
-## Occupations
-
-`Apr. 2024 - Present`
-__Beehive Federal Credit Union__, Rigby, ID
-
-- Worked front line providing knowlegde on financial products
-- Showed customer service skills
-
-`Oct. 2022 - Apr. 2024`
-__Substitute Seminary Teacher__, Idaho Falls, ID
-
-- Consistently entrusted to manage a class of up to 30 youth and maintain a positive learning environment
-- Developed strong presentation and teaching skills teaching 2-5 classes a day
-- Prepared lessons to last an hour at last minute
-
-
-`Jun. 2019 – Aug. 2019`
-__Real Estate Internship__, Idaho Falls, ID
-
-- Managed six social media platforms increasing traffic on our pages
-- Aided in listing, showing, and marketing residential properties
-- Developed customer service skills
-- Created advertisements to promote our service and to sell properties
-
-`Sep. 2020 – Sep. 2022`
-__Full-Time Volunteer Representative for The Church of Jesus Christ of Latter-day Saints__, San Jose California / Oaxaca Mexico
-
-- Demonstrated leadership skills by helping a team of twenty set and strive to attain goals
-- Consistently worked 60+ hours a week for two years
-- Planned effectively daily and executed plans but adjusted when needed
-- Became fluent in Spanish
-
-
-
-<!-- ### Footer
-
-Last updated: July 2024 -->
+---
+_Last updated: June 2025_  
+_Portfolio: [nefkade.github.io](https://nefkade.github.io)_
