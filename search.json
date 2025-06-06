@@ -126,7 +126,7 @@
     "href": "Data_Wrangling/project2.html",
     "title": "[Insert Project Title]",
     "section": "",
-    "text": "Show the code\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(DT)\n\ncovid_data &lt;- read_csv(\"https://covid.ourworldindata.org/data/owid-covid-data.csv\")\n\n\nThe COVID-19 dataset from Our World in Data is widely recognized and regularly updated, but it still presents meaningful opportunities for data wrangling. Working with this global dataset, I applied my skills in R to…\n\nTransforming the Raw Data\n\nRaw\n\n\nShow the code\ndatatable(\n  covid_data %&gt;% sample_n(100),\n  options = list(pageLength = 10),\n  caption = \"Sample of Raw COVID-19 Data\"\n)\n\n\n\n\n\n\n\n\nclean",
+    "text": "Show the code\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(DT)\n\n# covid_data &lt;- read_csv(\"https://covid.ourworldindata.org/data/owid-covid-data.csv\")\n\n\nThe COVID-19 dataset from Our World in Data is widely recognized and regularly updated, but it still presents meaningful opportunities for data wrangling. Working with this global dataset, I applied my skills in R to…\n\nTransforming the Raw Data\n\nRaw\n\n\nShow the code\n# datatable(\n#   covid_data %&gt;% sample_n(100),\n#   options = list(pageLength = 10),\n#   caption = \"Sample of Raw COVID-19 Data\"\n# )\n\n\n\n\nclean",
     "crumbs": [
       "Data Wrangling",
       "Project 2"
@@ -225,7 +225,7 @@
     "href": "Data_Wrangling/project1.html",
     "title": "The Matthew Effect",
     "section": "",
-    "text": "Show the code\nlibrary(tidyverse)\n\n\n\n\nShow the code\ntuesdata &lt;- tidytuesdayR::tt_load('2024-01-09')\n## OR\ntuesdata &lt;- tidytuesdayR::tt_load(2024, week = 2)\n\ncanada_births_1991_2022 &lt;- tuesdata$canada_births_1991_2022\nnhl_player_births &lt;- tuesdata$nhl_player_births\nnhl_rosters &lt;- tuesdata$nhl_rosters\nnhl_teams &lt;- tuesdata$nhl_teams",
+    "text": "Show the code\nlibrary(tidyverse)\n\n\n\n\nShow the code\n# tuesdata &lt;- tidytuesdayR::tt_load('2024-01-09')\n# ## OR\n# tuesdata &lt;- tidytuesdayR::tt_load(2024, week = 2)\n\n# canada_births_1991_2022 &lt;- tuesdata$canada_births_1991_2022\n# nhl_player_births &lt;- tuesdata$nhl_player_births\n# nhl_rosters &lt;- tuesdata$nhl_rosters\n# nhl_teams &lt;- tuesdata$nhl_teams",
     "crumbs": [
       "Data Wrangling",
       "Project 1"
