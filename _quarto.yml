@@ -69,3 +69,13 @@ website:
           file: Machine_Learning/project2.qmd
         - text: "Project 3"
           file: Machine_Learning/project3.qmd
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Contents"
+    self-contained: true
+    theme: cosmo
+    css: styles.css
+    title-block-banner: false

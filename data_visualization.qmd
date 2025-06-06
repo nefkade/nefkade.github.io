@@ -1,10 +1,44 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: "Overview - Data Visualization"
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Projects
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+This section showcases how I turn data into insights through clear, compelling visualizations. Each project demonstrates a different aspect of visual storytelling—from interactive dashboards to exploratory plots that reveal patterns and trends.
+
+ - Project One –
+ - Project Two –
+ - Project Three –
+ - Project Four –
+ - Project Five –
+
+## Visualization Approach
+
+ - Key Skills
+     - Exploratory data visualization
+     - Choosing effective chart types
+     - Highlighting key insights visually
+     - Customizing aesthetics and themes
+     - Annotating for clarity and storytelling
+
+ - Tools
+     - R
+        - ggplot2
+        - plotly
+        - patchwork
+        - gganimate
+     - Python
+        - matplotlib
+        - seaborn
+        - plotly
+        - altair
+     - Business Intelligence
+         - Power BI
+         - Tableau
+         - Excel Charts & Pivot Tables
+

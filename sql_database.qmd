@@ -1,10 +1,23 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: "Overview - SQL & Databases"
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Projects
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+This section highlights how I use SQL to extract, organize, and analyze data stored in relational databases.
+
+ - Project 1 - 
+ - Project 2 - 
+
+## SQL & Database Skills
+- Key Skills
+     - Writing complex SQL queries
+     - Filtering, grouping, and aggregating data
+     - Subquieries and Common Table Expressions (CTEs)
+     - JOINs accross multiple tables
+

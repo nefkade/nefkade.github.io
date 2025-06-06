@@ -32,7 +32,7 @@ library(tidyverse)
 library(lubridate)
 library(DT)
 
-covid_data <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
+# covid_data <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
 ```
 
 The COVID-19 dataset from Our World in Data is widely recognized and regularly updated, but it still presents meaningful opportunities for data wrangling. Working with this global dataset, I applied my skills in R to...
@@ -42,11 +42,11 @@ The COVID-19 dataset from Our World in Data is widely recognized and regularly u
 #### Raw
 
 ```{r}
-datatable(
-  covid_data %>% sample_n(100),
-  options = list(pageLength = 10),
-  caption = "Sample of Raw COVID-19 Data"
-)
+# datatable(
+#   covid_data %>% sample_n(100),
+#   options = list(pageLength = 10),
+#   caption = "Sample of Raw COVID-19 Data"
+# )
 ```
 
 #### clean

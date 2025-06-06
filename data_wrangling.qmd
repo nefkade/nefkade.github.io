@@ -1,10 +1,39 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: "Overview - Data Wrangling"
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Projects
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+This section highlights the tools and techniques I use to clean and prepare raw data for analysis.
+
+ - Project One - 
+ - Project Two - 
+ - Project Three - 
+ - Project Four - 
+ - Project Five - 
+
+## Data Preparation
+
+ - Key Skills:
+     - Handling missing values
+     - Analyzing outliers
+     - Joining data
+     - Feature Engineering
+     - Data type conversion
+     - String cleaning
+     - Aggregating and summarizing data
+
+ - Tools that I use regularly:
+    - R 
+        - tidyverse - package including (dplur, tidyr, readr, etc.)
+        - lubridate
+        - stringr
+    - Python
+        - pandas
+        - NumPY
+        - datetime
