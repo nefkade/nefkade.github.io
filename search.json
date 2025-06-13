@@ -16,41 +16,41 @@
   {
     "objectID": "SQL_Relational_Database/project1.html",
     "href": "SQL_Relational_Database/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "title": "SQL-Driven Analysis of Historical MLB Data",
     "section": "",
-    "text": "Paste in a template",
+    "text": "The Lahman Baseball Dataset is a famous dataset when learning relational datasets.\nI will be using SQLite3 in python to showcase SQL. This is only one of the enviroments that I am conforatble using SQL. The other is workbench.\n\n\nShow the code\nimport pandas as pd\nimport numpy as np\nimport plotly.express as px\nimport sqlite3\n\nsqlite_file = '../Data/lahmansbaseballdb.sqlite'\ncon = sqlite3.connect(sqlite_file)\n\n\n\n\nShow the code\nquery = \"\"\"\nSELECT s.yearID\n,      s.playerID\n,      p.nameFirst || ' ' || p.nameLast AS name\n,      s.salary\n,      b.HR\n,      b.RBI\n,      b.AB\n,      b.H\n,      f.PO\n,      f.A\n,      f.E\n,      f.G AS fielding_G,pi.W\n,      pi.SO\n,      pi.ERA\n,      pi.G AS pitching_G\n\nFROM Salaries s\nLEFT JOIN Batting b ON s.playerID = b.playerID AND s.yearID = b.yearID\nLEFT JOIN Fielding f ON s.playerID = f.playerID AND s.yearID = f.yearID\nLEFT JOIN Pitching pi ON s.playerID = pi.playerID AND s.yearID = pi.yearID\nJOIN People p ON s.playerID = p.playerID\n\nWHERE s.salary IS NOT NULL\n\"\"\"\ndf = pd.read_sql(query, con)\n\n\nHighest paid against performance\nCareer Length vs Consistency Performance",
     "crumbs": [
       "SQL/Database",
       "Project 1"
     ]
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Email: nefkade2@gmail.com | LinkedIn: Profile | Phone:(208) 227-4183\n\n\n\n\n\nBachelor of Science in Business Analytics\n\n\nApr. 2026\n\n\n\n\nBrigham Young University–Idaho\n\n\nRexburg, ID\n\n\n\nMinor: Finance\n\nCertificate: Data Science\n\n\n\n\n\n\n\nTeam Lead – Building Bridges\n\n\nJan. 2025 – Present | Rexburg, ID\n\n\n\nLed a team of interns in developing and piloting a program to deliver Arbinger principles to small local businesses\n\nConducted market research and assisted with pricing strategies to optimize business solutions\n\n\n\nTeller – Beehive Federal Credit Union\n\n\nApr. 2024 – Jan. 2025 | Rigby, ID\n\n\n\nCommunicated with members and coworkers to resolve issues and ensure excellent service\n\nProcessed transactions and maintained records with attention to detail and organization\n\n\n\nSubstitute Seminary Teacher\n\n\nOct. 2022 – Apr. 2024 | Idaho Falls, ID\n\n\n\nEntrusted to manage a class of up to 30 youth and maintain a positive learning environment\n\nDeveloped strong presentation and teaching skills, preparing hour-long lessons on short notice\n\n\n\nReal Estate Intern – The Options Team\n\n\nJun. 2019 – Aug. 2019 | Idaho Falls, ID\n\n\n\nManaged six social media platforms, increasing page traffic\n\nAssisted in listing, showing, and marketing residential properties\n\nCreated advertisements to promote services and sell properties\n\n\n\nVolunteer Representative – The Church of Jesus Christ of Latter-day Saints\n\n\nSep. 2020 – Sep. 2022 | San Jose, CA / Oaxaca, Mexico\n\n\n\nLed a team of twenty in setting and achieving weekly goals\n\nDevoted 60+ hours per week for two years, balancing structure with adaptability\n\nBecame fluent in Spanish\n\n\n\n\n\nMicrosoft Excel – Business Professionals of America Regionals\n2019 | Idaho Falls, ID\n\nLast updated: June 2025\nPortfolio: nefkade.github.io"
-  },
-  {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
-    "section": "",
-    "text": "Bachelor of Science in Business Analytics\n\n\nApr. 2026\n\n\n\n\nBrigham Young University–Idaho\n\n\nRexburg, ID\n\n\n\nMinor: Finance\n\nCertificate: Data Science"
+    "section": "Education",
+    "text": "Education\n\n\nBachelor of Science in Business Analytics\n\n\nApr. 2026\n\n\n\n\nBrigham Young University–Idaho\n\n\nRexburg, ID\n\n\n\nMinor: Finance\n\nCertificate: Data Science"
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Resume",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nData Analysis & Visualization\n\nPower BI (Advanced) | Tableau (Intermediate) | Excel (Advanced)\n\nData Wrangling & Querying\n\nSQL – MySQL, SQLite (Proficient) | R – Tidyverse (Proficient) | Python – Pandas (Intermediate)\n\nStatistical & Predictive Modeling\n\nStatistical Inference, Regression (Proficient) | Scikit-learn – Machine Learning Concepts (Intermediate)"
   },
   {
     "objectID": "resume.html#experience",
     "href": "resume.html#experience",
     "title": "Resume",
-    "section": "",
-    "text": "Team Lead – Building Bridges\n\n\nJan. 2025 – Present | Rexburg, ID\n\n\n\nLed a team of interns in developing and piloting a program to deliver Arbinger principles to small local businesses\n\nConducted market research and assisted with pricing strategies to optimize business solutions\n\n\n\nTeller – Beehive Federal Credit Union\n\n\nApr. 2024 – Jan. 2025 | Rigby, ID\n\n\n\nCommunicated with members and coworkers to resolve issues and ensure excellent service\n\nProcessed transactions and maintained records with attention to detail and organization\n\n\n\nSubstitute Seminary Teacher\n\n\nOct. 2022 – Apr. 2024 | Idaho Falls, ID\n\n\n\nEntrusted to manage a class of up to 30 youth and maintain a positive learning environment\n\nDeveloped strong presentation and teaching skills, preparing hour-long lessons on short notice\n\n\n\nReal Estate Intern – The Options Team\n\n\nJun. 2019 – Aug. 2019 | Idaho Falls, ID\n\n\n\nManaged six social media platforms, increasing page traffic\n\nAssisted in listing, showing, and marketing residential properties\n\nCreated advertisements to promote services and sell properties\n\n\n\nVolunteer Representative – The Church of Jesus Christ of Latter-day Saints\n\n\nSep. 2020 – Sep. 2022 | San Jose, CA / Oaxaca, Mexico\n\n\n\nLed a team of twenty in setting and achieving weekly goals\n\nDevoted 60+ hours per week for two years, balancing structure with adaptability\n\nBecame fluent in Spanish"
+    "section": "Experience",
+    "text": "Experience\n\n\nTeaching Assistant – Business Analytics\n\n\nApr. 2025 – Present | Rexburg, ID\n\n\n\nEvaluated 100+ Power BI projects, delivering targeted feedback to enhance DAX performance, model accuracy, and actionable insight\n\nReviewed dashboards and data models to assess efficiency, storytelling clarity, and technical execution\n\n\n\nTeam Lead – Building Bridges\n\n\nJan. 2025 – Apr. 2025 | Rexburg, ID\n\n\n\nLed a team of 5 interns in developing and piloting a program to deliver Arbinger principles to small local businesses\n\nConducted market research and assisted with pricing strategies to optimize business solutions\n\n\n\nTeller – Beehive Federal Credit Union\n\n\nApr. 2024 – Jan. 2025 | Rigby, ID\n\n\n\nCommunicated with members and coworkers to resolve issues and ensure excellent service\n\nProcessed transactions and maintained records with 100% accuracy\n\n\n\nVolunteer Representative – The Church of Jesus Christ of Latter-day Saints\n\n\nSep. 2020 – Sep. 2022 | San Jose, CA / Oaxaca, Mexico\n\n\n\nDemonstrated leadership skills by helping a team of twenty set and strive to attain goals\n\nDevoted 60+ hours a week for two years, planning effectively and adapting when needed\n\nBecame fluent in Spanish"
   },
   {
     "objectID": "resume.html#awards",
     "href": "resume.html#awards",
     "title": "Resume",
-    "section": "",
-    "text": "Microsoft Excel – Business Professionals of America Regionals\n2019 | Idaho Falls, ID\n\nLast updated: June 2025\nPortfolio: nefkade.github.io"
+    "section": "Awards",
+    "text": "Awards\nMicrosoft Excel – Business Professionals of America Regionals\n2019 | Idaho Falls, ID\n\nLast updated: June 2025\nPortfolio: nefkade.github.io"
   },
   {
     "objectID": "Machine_Learning/project3.html",
