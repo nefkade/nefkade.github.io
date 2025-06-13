@@ -243,7 +243,7 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "My name is Kade Nef. I am a Senior at Brigham Young University - Idaho. I am originally from Idaho Falls, Idaho. In my free time, I enjoy hiking, playing disc golf, and spending time with my family.\nFeatured on this site is some of my work. Most of it has been kept generic for privacy. I hope to highligh my skills in the following areas:\n\nData Wrangling\n\nUsing different methods including pandas and tidyverse\n\nData Visualization\n\nUsing ggplot, seaborn, plotly, and much more\n\nSQL Data Querying\nMachine Learning\n\nThank you for taking your time to check out some of my work."
+    "text": "I’m Kade Nef, a senior at Brigham Young University–Idaho, originally from Idaho Falls, Idaho. When I’m not in class, you’ll find me hiking local trails, playing disc golf, or enjoying time with my family.\nBelow is a curated selection of my projects. Each demonstrates my abilities in:\n\nData Wrangling\n\nLeveraging tools like pandas (Python) and the tidyverse (R) to clean, transform, and prepare data for analysis.\n\nData Visualization\n\nCrafting clear, engaging visuals with Power BI, ggplot2, seaborn, Plotly, and more.\n\nSQL Data Querying\n\nWriting optimized queries to extract insights from relational databases.\n\nMachine Learning\n\nBuilding, tuning, and evaluating predictive models to solve real-world problems.\n\n\nThank you for taking the time to explore my work."
   },
   {
     "objectID": "Machine_Learning/project2.html",
