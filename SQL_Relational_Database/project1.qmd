@@ -1,7 +1,6 @@
 ---
-title: "Client Report - [Insert Project Title]"
-subtitle: "Course DS 250"
-author: "[STUDENT NAME]"
+title: "SQL-Driven Analysis of Historical MLB Data"
+author: "Kade Nef"
 format:
   html:
     self-contained: true
@@ -17,12 +16,58 @@ format:
     code-overflow: wrap
     code-copy: hover
     code-tools:
-        source: false
-        toggle: true
-        caption: See code
-execute: 
+      source: false
+      toggle: true
+      caption: See code
+execute:
   warning: false
-    
 ---
 
-### Paste in a template
+The Lahman Baseball Dataset is a famous dataset when learning relational datasets.
+
+I will be using SQLite3 in python to showcase SQL. This is only one of the enviroments that I am conforatble using SQL. The other is workbench.
+
+```{python}
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import sqlite3
+
+sqlite_file = '../Data/lahmansbaseballdb.sqlite'
+con = sqlite3.connect(sqlite_file)
+```
+
+```{python}
+query = """
+SELECT s.yearID
+,      s.playerID
+,      p.nameFirst || ' ' || p.nameLast AS name
+,      s.salary
+,      b.HR
+,      b.RBI
+,      b.AB
+,      b.H
+,      f.PO
+,      f.A
+,      f.E
+,      f.G AS fielding_G,pi.W
+,      pi.SO
+,      pi.ERA
+,      pi.G AS pitching_G
+
+FROM Salaries s
+LEFT JOIN Batting b ON s.playerID = b.playerID AND s.yearID = b.yearID
+LEFT JOIN Fielding f ON s.playerID = f.playerID AND s.yearID = f.yearID
+LEFT JOIN Pitching pi ON s.playerID = pi.playerID AND s.yearID = pi.yearID
+JOIN People p ON s.playerID = p.playerID
+
+WHERE s.salary IS NOT NULL
+"""
+df = pd.read_sql(query, con)
+```
+
+
+Highest paid against performance
+
+Career Length vs Consistency Performance
+
